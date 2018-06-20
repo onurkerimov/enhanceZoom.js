@@ -63,7 +63,7 @@
         else sheet.appendChild(document.createTextNode(rule)); // Support for the rest
     }
 
-    if ($) {
+    if (window.$) {
         $.enhanceZoom = $enhanceZoom
     } else {
         window.$enhanceZoom = $enhanceZoom
