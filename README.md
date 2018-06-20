@@ -47,11 +47,13 @@ $.enhanceZoom('body', { factor: -1, stretch: true }) //setting negative factor i
 ```
 ## Custom screen DPI related problems
 I observed that while in my Chrome settings, zoom value was set to 100%, the value of `window.devicePixelRatio` was strangely 1.25.
-Chrome Settings            |  Devtools Console
-:-------------------------:|:-------------------------:
-  ![](assets/chrome.png)   |  ![](assets/devtools.png)
+
+| Chrome Settings | Devtools Console |
+|--|--|
+| ![](assets/chrome.png) | ![](assets/devtools.png) |
   
-Then, I discovered that this is root of a lot of problems. On larger screens, or Retina screens, zoom setting of browser secretly obeys the OS's DPI settings.
+It turns out that zoom setting of browser secretly obeys the OS's DPI settings.
+
 ![](assets/windows.png)
 
 ## License
