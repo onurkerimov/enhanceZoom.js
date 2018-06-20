@@ -1,7 +1,7 @@
 
 # enhanceZoom.js
 
-**enhanceZoom.js** is an extremely small plugin (45 lines uncompressed) that changes zoom behavior of your elements (or whole page). You can use **enhanceZoom.js** to do a lot of things:
+**enhanceZoom.js** is an extremely small plugin (55 lines uncompressed) that changes zoom behavior of your elements (or whole page). You can use **enhanceZoom.js** to do a lot of things:
  - Prevent zoom on a page (Force 100% zoom)
  - Prevent zoom on some elements on a page  
  - Set different zoom factors on different elements 
