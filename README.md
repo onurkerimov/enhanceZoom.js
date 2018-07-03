@@ -10,7 +10,7 @@
  - Invert zoom behavior!
 
 ## How it works
-When searching for a method to disable zoom on a page, I have often found solutions that override `Ctrl` + `mousewheel`, `Ctrl` + `+` or `Ctrl` + `-` events. This plugin uses a completely different method. `window.devicePixelRatio` is a window property  that  returns the ratio of the resolution in  _physical pixels_  to the resolution in  _CSS pixels_  for your device. It is supported by all modern browsers. (See [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio)) By using this property, **enhanceZoom.js** dynamically adds CSS rules to `head` of your document. Then, by default, it adds a `resize` listener in order to listen zoom events. When a zoom-in or zoom-out is happened, it updates the CSS rules with the newly computed scaling factor.
+When searching for a method to disable zoom on a page, I have often found solutions that override `Ctrl` + `mousewheel`, `Ctrl` + `+` or `Ctrl` + `-` events. This plugin uses a completely different method. `window.devicePixelRatio` is a window property  that  returns the ratio of the resolution in  _physical pixels_  to the resolution in  _CSS pixels_  for your device. It is supported by all modern browsers. (See [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio)) By using this property, **enhanceZoom.js** dynamically adds CSS rules to `head` of your document. Then, by default, it adds a `resize` listener in order to listen zoom events. When a zoom-in or zoom-out occurs, it updates the CSS rules with the newly computed scaling factors.
 
 
 ## Examples
